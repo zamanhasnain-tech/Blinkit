@@ -1,0 +1,248 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+header {
+    display: flex;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    gap:40px;
+}
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+.headerLogo {
+    padding:22px 30px;
+    border-right: 1px solid #ccc;
+}
+.headerAddress {
+    padding:10px 30px;
+}
+.headerAddress h3 {
+    font-size:18px;
+    margin-bottom: 5px;
+}
+.headerAddress p {
+    font-size:15px;
+}
+.search {
+    display: flex;
+    flex-grow: 1;
+    border:1px solid #f4f4f4;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.search button {
+    padding:15px;
+    border-right:none;
+    border:none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.search input {
+    border-left:none;
+    border:none;
+    flex-grow: 1;
+    background-color: transparent;
+}
+.search input:focus {
+    outline:none;
+}
+.headerBtn {
+    display: flex;
+    margin-right: 30px;
+}
+.headerBtn button {
+    padding:15px;
+    background-color: transparent;
+    border:none;
+    font-size:18px;
+}
+.headerBtn button:last-child {
+    border-radius: 10px;
+    background-color: rgb(12 131 31);
+    color:white;
+}
+
+.bannerSection {
+    margin:auto;
+    max-width: 1280px;
+}
+.bannerSection img {
+    width: 100%;
+}
+ 
+
+/* .SectionImg {
+    display: flex;
+    max-width: 1280px;
+}
+.box {
+    width:335px;
+    height:195px;
+    margin:10px;
+}
+.img-1{
+    background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.img-2{
+    background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2026-01/pet_crystal_WEB-1.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.img-3{
+    background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2026-01/baby_crystal_WEB-1.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+} */
+
+.orderBanner {
+    display: flex;
+    margin:auto;
+    max-width: 1280;
+}
+.bannerItems {
+   flex-basis:28%;
+    margin:1%;
+}
+.bannerItems img {
+    width:100%;
+}
+
+.categorySection {
+    display: flex;
+    flex-wrap:wrap;
+    margin:auto;
+    max-width: 1280px;
+}
+.categoryItems {
+    flex-basis:9%;
+    margin:3px;
+}
+.categoryItems img {
+    width:100%;
+}
+/* footer */
+footer {
+    padding-top:40px;
+}
+.footer-mid {
+    max-width:1280px;
+    margin:auto;
+}
+.footer-mid-row1 {
+    width:100%;
+    display: flex;
+    gap:40px;
+}
+.footer-mid-row1-left {
+    flex-basis: 30%;
+    margin-left:20px;
+}
+.footer-mid-row1-left h3 {
+    margin-bottom: 20px;
+}
+.usefulLinks {
+    display:flex;
+}
+.usefulLinks ul {
+    font-size:14px;
+    flex-basis:33%;
+    list-style:none;
+}
+.usefulLinks ul li a {
+     color:#666666;
+}
+.usefulLinks li {
+    padding-bottom: 15px;
+}
+
+.footer-mid-row1-right {
+    flex-basis:70%;
+}
+.CategoryHeading {
+    display: flex;
+    margin-bottom:20px;
+    gap:15px;
+    align-items: center;
+}
+.CategoryHeading a {
+    color: rgb(12, 131, 31);
+}
+.usefulLinks-2 {
+    display: flex;
+}
+.usefulLinks-2 ul {
+    list-style:none;
+    flex-basis: 33%;
+}
+.usefulLinks-2 li {
+  padding-bottom: 15px;
+}
+.usefulLinks-2 ul a {
+    color:#666666;
+    font-size:14px;
+}
+
+.footer-mid-row-2 {
+    background-color: #fcfcfc;
+    display: flex;
+    width:100%;
+    padding:20px 0px;
+    align-items: center;
+}
+.footer-mid-row-2 p {
+    flex-basis: 40%;
+    font-size:12px;
+    color: rgb(102 102 102);
+    text-align: center;
+}
+.download {
+    display: flex;
+    align-items: center;
+    flex-basis: 30%;
+    gap: 10px;
+}
+.download h6 {
+    font-size: 16px;
+    color:rgb(102, 102,102);
+}
+
+.SocialIcons {
+    display: flex;
+    gap:15px;
+    margin-left:20px;
+}
+.SocialIcons i {
+       width:40px;
+       height:40px;
+       color:white;
+       background-color: Black;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+}
+
+
+.footer-mid-row-3 p {
+    color: #666666;
+    font-size:14px;
+    margin:12px;
+    padding: 10px;
+}
